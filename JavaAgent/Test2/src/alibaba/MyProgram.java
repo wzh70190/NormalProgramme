@@ -7,3 +7,5 @@ public class MyProgram
 		System.out.println("====MyProgram====");
 	}
 }
+
+//-javaagent:D:\code\NormalProgramme\JavaAgent\out\artifacts\Test1_jar\Test1.jar=Hello
