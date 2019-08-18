@@ -1,5 +1,7 @@
 package agent;
 
+import javassist.ClassPool;
+
 import java.lang.instrument.Instrumentation;
 
 public class MyAgent
@@ -15,7 +17,6 @@ public class MyAgent
 		System.out.println(agentOps);
 		// Ìí¼ÓTransformer
 		inst.addTransformer(new MyTransformer());
-
 	}
 
 	/**
@@ -29,9 +30,6 @@ public class MyAgent
 		System.out.println(agentOps);
 	}
 
-	public static void main(String[] args)
-	{
 
-	}
 
 }

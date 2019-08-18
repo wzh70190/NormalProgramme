@@ -1,7 +1,8 @@
 Manifest-Version: 1.0
 Premain-Class: agent.MyAgent
 Can-Redefine-Classes: true
-Boot-Class-Path: javassist-3.12.1-GA.jar
+Boot-Class-Path: javassist-3.12.1.GA.jar
+Class-Path: javassist-3.12.1.GA.jar
 
 
 
