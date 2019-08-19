@@ -17,7 +17,6 @@
 ### 实现字节码切面
 
 打成jar包需要注意。按照图中打包
-![image text](https://raw.githubusercontent.com/wzh70190/NormalProgramme/master/JavaAgent/20190820011532.png)
-
+![sss](https://gitee.com/sss1235/picture/raw/master/QQ图片20190820011532.png)
 
 升级版是myageny，myprogram
