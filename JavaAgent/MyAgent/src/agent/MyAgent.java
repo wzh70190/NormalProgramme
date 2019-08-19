@@ -1,7 +1,5 @@
 package agent;
 
-import javassist.ClassPool;
-
 import java.lang.instrument.Instrumentation;
 
 public class MyAgent

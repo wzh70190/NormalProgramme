@@ -71,7 +71,10 @@ public class MyTransformer implements ClassFileTransformer {
                     bodyStr.append(postfix);
                     bodyStr.append(outputStr);
                     bodyStr.append("}");
-
+                    //{long startTime = System.currentTimeMillis();
+                    // sayHello$old($$);
+                    //long endTime = System.currentTimeMillis();
+                    //\nSystem.out.println(\"this method " + methodName+ " cost:\" +(endTime - startTime) +\"ms.\");
                     newMethod.setBody(bodyStr.toString());// 替换新方法
                     ctclass.addMethod(newMethod);// 增加新方法
                     System.err.println(outputStr);
